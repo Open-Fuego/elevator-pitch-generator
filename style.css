@@ -31,7 +31,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
 /* This is what controls that cool parallax scrolling effect. Change the image "el4.jpg" below to your image.*/
 /*You can always add more parlax assets on your web document, just follow the directions at the bottom of the index.html.*/
 .parallax-1 { 
-  background-image: url("el4.jpg");
+  background-image: url("the_o.jpg");
 
   /* Set a specific height */
   height: 500px; 
