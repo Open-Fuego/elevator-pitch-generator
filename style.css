@@ -43,49 +43,27 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
   background-size: cover;
 }
 
+/* Preset Image Controls
 
-/* This section of css. helps organize images to position and center the image to scale nicely on all screens */
+This section of css. helps organize images to position and center the image to scale nicely on all screens */
 
-.center-small-image {
+.center-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-    
-.center-large-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
 
 
-/*this css. element centers elements*/
+/* -Preset Photo Grid -  
 
-.centertext {
-  text-align: center;
-    
-}
-
-/* This css. section controls the paragraph chunks*/
-
-.par-centertext {
-  margin: auto;
-  width: 50%;
-  padding: 100px;
-    font-size: 125%; 
-
-}
-
-
-/*The following .css is responsible for your photo grid .row, .column, .column img and @ media all work together to create your responsive image displays. Change the images on index.html. Remember, the images need to be in your project file folder */
+The following .css is responsible for your photo grid .row, .column, .column img and @ media all work together to create your responsive image displays. Change the images on index.html. Remember, the images need to be in your project file folder */
 
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
-  justify-content: center;
+    justify-content: center;
 }
 
 /* Create 3 equal columns that sit next to each other */
@@ -101,14 +79,47 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
   width: 100%;
 }
 
-/* Responsive layout - makes a one column-layout instead of two or three columns */
+
+/* Responsive layout - makes grid a one column-layout instead of two or three columns */
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
     max-width: 50%;
 }
+}
 
 
+/* - Preset Text Block Controls- 
+this css. element centers text elements*/
+
+
+/* This css. section controls the paragraph chunks*/
+
+@media screen and (min-width: 800px) {
+.textblock {
+  margin: auto;
+  width: 50%;
+  padding: 100px;
+    font-size: 125%; 
+}
+}
+    
+@media screen and (max-width: 800px) {
+  .textblock {
+    margin: auto;
+    padding: 20px;    
+}
+}
+
+
+
+    
+    
+
+ 
+    
+    
+    
 
 
 
