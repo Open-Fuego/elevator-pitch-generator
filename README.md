@@ -1,15 +1,21 @@
-# Elevator Pitch Generator
+# Electrate Fuego
 
-It's true. The Greeks invented the elevator, and quickly realized the awkward communication that results when one is locked in a box with their interlocutor. Luckily, in addition to being great engineers, the Greeks were also skilled rhetoricians.
+Abstract: This repository will allow the user to mix and match div. blocks to build a quick website similar to an Adobe Spark. https://spark.adobe.com, but with an electrate twist...
 
-Open this generator and follow the directions to utilize the available means of persuasion to concisely language exactly what you want to say. The result: an elevator pitch. Ding! - Doors Closing - How high do you want to go?"
+Hello, maker! Welcome to my Electrate Fuego web design tutorial. I'm glad you found it – for this might be a real intersection on your way to becoming. I use this document in my Technical Communications classes at the University of Pittsburgh to teach my students a little bit about computer science and something called "electracy." Just follow along with comments like this one, and you'll make a really cool web documemt that not only introduces you to the other people in our classes, but will help you process how different discourse communities in your life have contributed to your arrival in this space, virtual and actual, and also contribute to where you might be going. 
 
-View the [Demo](https://pitt-fuego.github.io/elevator-pitch-generator) 
+In this doc, you will work through Gregory Ulmer's discourses of career, family, entertainment, community, and schooling (_Internet Invention From Literacy to Electracy_, 2002.) In Ulmer's text, he elides community and schooling into one category, but for our puposes I have separated them. Ulmer's theory of electracy helps makes sense of how we find/construct meaning and connect with others rhetorically in a media rich ecology. Ulmer uses analogy to define electracy, explaining that "electracy is to digital media what literacy is to print." 
 
+Before we get going I would like to give a shout-out to my research buddy Shauna Chung, who helped me develop the original Ulmerian framework we will be following in this document. Are you ready to get started?
 
+Peace and love only, Stephen Quigley, University of Pittsburgh 2020 
+
+See my Demo: [HERE](https://sjquigley.github.io/Steve-Electrate-Fuego/) 
+    
+    
 ## Get started!
 
-1. Go to the Elevator Pitch repository: [HERE](https://github.com/Pitt-Fuego/elevator-pitch-generator)
+1. Go to repository: [HERE](https://github.com/Pitt-Fuego/Electrate-Fuego)
 
 2. Click "Code" then "Download ZIP" to your local computer. 
 
@@ -29,7 +35,15 @@ View the [Demo](https://pitt-fuego.github.io/elevator-pitch-generator)
 
 11. Test the URL in a browser. Magic, no? Actually, it's computer science.  
 
+Instructional Video: [HERE](https://www.youtube.com/watch?v=drINeC4G40A) 
 
 Check out our other cool coding tools [HERE](https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/)
+
+
+
+
+
+
+
 
 
