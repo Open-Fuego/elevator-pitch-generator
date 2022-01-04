@@ -154,7 +154,7 @@ This code controls that cool parallax image and scrolling effect. Change the ima
 
 
 .parallax {
-    background-image: url("el4.jpg");
+    background-image: url("parallax.jpg");
 
     /* Set a specific height */
     height: 500px;
