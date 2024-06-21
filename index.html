@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 
 <!--Hello digital composer! Welcome to my Elevator Pitch Generator web design tool, powered by Stasis Theory. I'm glad you found it--we're going to adapt a 2,000 year old formula to help you pitch an idea, explaining who you are and what you want, why it's important, and what it will do for your audience. I use this document in my Technical Communications classes at the University of Pittsburgh to teach my students a little bit about rhetoric, and a little bit about computer science. Just follow along and with comments like this, and you will make a really cool web documemt that helps pitch your idea and learn a little bit about coding.
 
 You could make web presentations the easy way by creating a pdf's or powerpoint, or you could do a little more work to better understand these digital tools that you use everyday to (re)present yourself and connect with others in virtual spaces. And this last bit is an important point! If we really want to be makers, if we really want to be creative, then we need to understand our tools and how they work.
 
-In this file, you will work through the four questions of stasis: conjecture, definition, quality, and policy. This method is tried and true, 100% guaranteed to help you say something meaningful about almost anything. While the Greeks originally used it to help them explore questions and issues, and to try to figure out where others might disagree on those issues, the design can easily be adapted to other ends like this one. You should even commit this exercise of stasis to memory. That way, if you are ever stuck on an elevator with someone important...you'll be ready to have something to say. That was indeed the problem for Archimedes, the engineer who built the first elevator in 236BC and afterwards found himself riding in his elevator with all kinds of powerful people, ascending and descending with nothing to say. And for almost two hundred years, the the problem continued to plague the Greeks until the rhetorician Hermagoras solved this communication problem by developing the questions of stasis. Some say it was actually Aristotle, some hundred years pre-elevator, who first theorized the questions of stasis. And much later in the Roman period, Cicero, Quintillian, and Hermogenes added their own iterations.
+In this file, you will work through the four questions of stasis: conjecture, definition, quality, and policy. This method is tried and true, 100% guaranteed to help you say something meaningful about almost anything. While the Greeks originally used it to help them explore questions and issues, and to try to figure out where others might disagree on those issues, the design can easily be adapted to other ends like this one. You should even commit this exercise of stasis to memory. That way, if you are ever stuck on an elevator with someone important...you'll be ready to have something to say. That was indeed the problem for Archimedes, the engineer who built the first elevator in 236BC and afterwards found himself riding in his elevator with all kinds of powerful people, ascending and descending with nothing to say. And for almost two hundred years, the the problem continued to plague the Greeks until the rhetorician Hermagoras solved this communication problem by developing the questions of stasis. Some say it was actually Aristotle, some hundred years pre-elevator, who first theorized the questions of stasis. And much later in the Roman period, Cicero, Quintilian, and Hermogenes added their own iterations.
 
 I like to think about stasis theory in terms of space. Some say the goal of this exercise is stasis, or agreement with the other, but I would argue that the goal of stasis is actually movement. Yes, when we come to stasis, we stop. But we stop only long enough in time/space to assess how we got where we are and what happened before moving forward. I argue that we actually use stasis theory to ready ourselves and others to move with changed velocity (in a new direction and perhaps at a different speed.)
 
@@ -20,6 +20,7 @@ BTW. You can leave these faded comments be, or delete them. They are but road si
 
 <head>
 <title>Elevator Pitch Generator</title>
+<link rel="icon" type="image/jpg" href="favicon.jpg">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -39,34 +40,35 @@ BTW. You can leave these faded comments be, or delete them. They are but road si
 <!--in this next section you need to answer the first question of stasis, that of conjecture. What is the problem? Can it be solved?-->
 
 
-<div class="textblock" style="text-align: left">
+<div class="text-block" style="text-align: left">
   <h2>Conjecture</h2>
     <h3>Answer the questions of conjecture: What is the problem and how will your product/service/etc. solve it? Make an assertive statement that resonates with your audience.</h3>
     </div>
 
 <!--Add more photos to your project folder for a photo grid, making sure the files end in .jpg or .png and replace/add to the names on the grid below on this html file. You can add more images if you wish, or subtract...see what happens--you have to be playful to find out how things work.-->
 
-<div class="photogrid">
+<div class="flexbox-container">
+  <div class="photogrid">
     <div class="row">
-  <div class="column">
-    <img src="pgrid1.jpg" alt= "descibe image here for accessibility issues">
-    <img src="pgrid2.jpg" alt= "descibe image here for accessibility issues">
+      <div class="column">
+        <img src="pgrid1.jpg" alt= "describe image here for accessibility issues">
+        <img src="pgrid2.jpg" alt= "describe image here for accessibility issues">
         </div>
-<div class="column">
-    <img src="pgrid3.jpg" alt= "descibe image here for accessibility issues">
-    <img src="pgrid4.jpg" alt= "descibe image here for accessibility issues">
+      <div class="column">
+        <img src="pgrid3.jpg" alt= "describe image here for accessibility issues">
+        <img src="pgrid4.jpg" alt= "describe image here for accessibility issues">
         </div>
-<div class="column">
-    <img src="pgrid5.jpg" alt= "descibe image here for accessibility issues">
-    <img src="pgrid6.jpg" alt= "descibe image here for accessibility issues" >
-
+      <div class="column">
+        <img src="pgrid5.jpg" alt= "describe image here for accessibility issues">
+        <img src="pgrid6.jpg" alt= "describe image here for accessibility issues" >
+      </div>
+    </div>
   </div>
- </div>
 </div>
 
 <!--You can't break this thing! Right? Control Z. Comtrol Z. Control Z...-->
 
-<div class="textblock" style="text-align: left">
+<div class="text-block" style="text-align: left">
     <h2>Definition</h2>
 
     <h3>Let's address some of questions of definition and better qualify your conjecture. Flesh it out. Get specific.</h3>
@@ -75,14 +77,14 @@ BTW. You can leave these faded comments be, or delete them. They are but road si
 
     <!--Replace the image here. You can also control image width and height %.-->
 
- <img src="el2.jpg" alt="descibe image here for accessibility issues" class="center-img" style="width:50%;height:50%;">
+ <img src="el2.jpg" class="frame" alt="describe image here for accessibility issues" width="50%">
 
 
 
 
 
 
-<div class="textblock" style="text-align: left">
+<div class="text-block" style="text-align: left">
   <h2>Quality</h2>
      <h3>We are at the question of quality: why is solving this problem important? Who are the stakeholders? What happens if we don't do anything? What are the costs of solving/not solving the problem/issue?</h3>
     </div>
@@ -90,12 +92,12 @@ BTW. You can leave these faded comments be, or delete them. They are but road si
 
     <div>
 
- <img src="el3.jpg" alt="descibe image here for accessibility issues" class="center-img" alt="my feet in water" style="width:100%;height:100%;">
+ <img src="el3.jpg" class="frame" alt="describe image here for accessibility issues" alt="my feet in water" width="100%">
     </div>
 
 
 
-<div class="textblock" style="text-align: left">
+<div class="text-block" style="text-align: left">
   <h2>Policy</h2>
 
     <h3>Now we need to address the question of policy: moving forward, what's your plan? Why are you and your solution right for the job? What can you/your product or service do specifically for the audience?</h3>
@@ -106,154 +108,168 @@ BTW. You can leave these faded comments be, or delete them. They are but road si
 
 
 
-<div id="logo">
+<div class="logo">
     <img src="hero.jpg" alt="image of elevator doors" style="max-width:25%;max-height:25%;">
         <p><b>generated by <a href="https://open-fuego.github.io/open-Fuego-Coding-Tools/">Open Fuego</a></b></p>
           <p><em>Why make a spark when you can light a fire?</em></p>
 </div>
 
 
-<!--Add footer here-->
-
   </body>
      </html>
-
-
 
 
 
      <!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class properties on style.css.
 
 
-     ***Add Text Block***
+        
+     Looking to publish this webtext in GitHub? Here are your next steps:
 
-    (Format textblock using inline styling: text-align: left, center, justify, right; Format text: Italics: <em>italics</em>; Bold: <b>bold</b>; Link Website: <a href="link">LinkName</a>; Link Asset: <a href=filename.pdf>FileName</a>; Line Breaks: <br></br>; Tip for composing longer content: use <h3> and <p> instead of <h2> and <h3>)
-
-     <div class="textblock" style="text-align: left">
-         <h2>Header</h2>
-         <h3>We recommend using our mobile-ready text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-     </div>
+     Sign in to GitHub. Create a new repository. Name it. Click “uploading an existing file,” then select/drag and drop all of your files... all of them, index.html. style.css, readme, and your image assets. Click "commit." Now go to your repository "settings." Scroll down to "Pages." Here you will change "source" from "none" to "main" branch. This will publish your webtext online. Copy your URL from this settings page...and now it's time to circulate your webtext! Peace and love only, Stephen Quigley, University of Pittsburgh, 2021.-->
 
 
 
-     ***Add Block Quote***
-
-     (Format text: Italics: <em>italics</em>; Bold: <b>bold</b>. For more stylings, find blockquote class on style.css)
-
-     <div class="blockquote" style="text-align: center">
-         <h2>Excepteur sint occaecat cupidatat non proident!</h2>
-     </div>
+       <!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class CSS properties on style.css.
 
 
+    ***Add Text Block***
 
-     ***Add Bulleted Points to Textblock***
+    (Format textblock using inline styling: text-align: left, center, justify, right. To improve accessibility, always left-align text longer than three lines; Format text: <i>italics</i>; <b>bold</b>; <u>underline</u>; <mark>highlight</mark>; <sup>superscript</sup>; <sub>subscript</sub>; Link Website: <a href="link">LinkName</a>; Line Breaks: <br></br>;
 
-     (Change <ul></ul> to <ol></ol> to change from unordered list to ordered list. For more stylings, find the ul/li classes on style.css)
+  <div class="text-block" style="text-align: left">
+    <h2>Header</h2>
+       <p>We recommend using our mobile-ready text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
 
-     <div class= "ul">
-             <li>first</li>
-             <li>second</li>
-             <li>third</li>
-     </div>
 
-     -or- (try a nested list)
 
-     <div class="ul">
-         <li>Coffee</li>
-         <li>Tea
-           <ul>
-             <li>Black tea</li>
-             <li>Green tea</li>
-           </ul>
-          </li>
-         <li>Milk</li>
+    ***Add Pull Quote***
+
+    (Format text: Italics: <i>italics</i>; Bold: <b>bold</b>. Change font and font size using CSS)
+
+  <div class="pull-quote" style="text-align: center">
+    <h2>Excepteur sint occaecat cupidatat non proident!</h2>
+  </div>
+
+
+
+    ***Bulleted Points or List***
+
+    (Nest within text-block or style using CSS. Change <ul> to <ol> in HTML to switch from unordered list to ordered list.)
+
+  <div>
+    <ul>
+      <li>first</li>
+      <li>second</li>
+      <li>third</li>
+    </ul>
+  </div>
+
+
+
+    ***Add Link that Looks Like a Button***
+
+    (Clearly label link action. For more stylings, find button-box class properties on style.css)
+
+  <div class="button-box">
+    <a href="https://open-fuego.github.io/Open-Fuego-Coding-Tools/" class="button">Go to Fuego</a>
+  </div>
+
+
+
+    ***Add CSS Flexbox Container with Placeholder Images***
+
+    (Add or subtract columns. Control column width using CSS.)
+
+  <div class="flexbox-container">
+    <div class="row">
+        <div class="column">
+            <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+    </div>
+        <p><i>Add a caption.</i></p>
+  </div>
+
+
+
+    ***Add Image Frame and Filters***
+
+    (Control image width using inline styling. Adjust "frame" class properties using CSS.)
+
+  <img class="frame" src="codela.jpg" width="50%" alt="describe the image HERE for accessibility purposes">
+    <div class="caption">
+      <p><i>Add a caption</i></p>
+    </div>
+  
+
+
+
+    ***Add Polaroid***
+
+    (Control image width using CSS.)
+
+  <div class="polaroid">
+    <img src="polaroid.jpg" alt="describe the image HERE for accessibility purposes">
+      <div class="polaroid-caption">
+        <p><i>Add a caption</i></p>
       </div>
+  </div>
 
 
 
-      ***Add a Button***
+      ***Add Image Container with Text Box***
 
-      (Clearly label button for accessibility purposes. If this is not possible, include: aria-label=”label for accessibility purposes.” For more stylings, find button class on style.css)
+      (Control Image Container properties using CSS.)
 
-      <div class="buttonbox">
-         <a href="https://open-fuego.github.io/Open-Fuego-Coding-Tools/" class="button" aria-label="">Button</a>
+  <div class="image-container">
+    <img src="fuego.jpg" alt="describe image here">
+      <div class="image-container-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
+  </div>
 
+
+
+    ***Add Parallax Window***
+
+      (Adjust window height using parallax class on style.css)
+
+  <div class="parallax"></div>
+    <div class="caption">
+      <p><i>Add a caption.</i></p>
+  </div>
 
 
 
      ***Embed YouTube Video***
 
-     <div class="video">
-      <div class="video-container">
-        <<iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>
-      </div>
-        <p>Add a caption.</p>
-     </div>
+  <div class="video">
+    <div class="video-container">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/QzMJtLUncIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+         <p>Add a caption.</p>
+  </div>
+
+
+    ***Add Copyright Footer***
+
+  <div class="footer">
+    <p><i>Copyright Your Name, Year.</i></p>
+  </div>
 
 
 
-     ***Add a Standard Image***
-
-     (Control image properties with inline width value.)
-
-     <img src="fuego.jpg" alt="describe the image HERE for accessibility purposes" style="width:30%;" class="center-img">
-     <p style="text-align: center"><em>Add a caption.</em></p>
+    ***Need something that's not here? Go to https://www.w3schools.com to find all kinds of resources to facilitate your code learning.***
 
 
 
-     ***Add Image Block with Padding and Caption*** (Control image properties with inline width value.)
-
-     <div class="imgageblock">
-         <img src="fuego.jpg" alt="describe the image HERE for accessibility purposes" style="width:100%;">
-          <p style="text-align: center"><em>Add a caption.</em></p>
-     </div>
-
-
-
-     ***Add a Photo Grid***
-
-     <div class="photogrid">
-     <div class="row">
-         <div class="column">
-             <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
-             <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
-         </div>
-         <div class="column">
-             <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
-             <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
-         </div>
-         <div class="column">
-             <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
-             <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
-         </div>
-     </div>
-         <p><em>Add a caption.</em></p>
-     </div>
-
-
-
-     ***Add a Parallax Window***
-
-     (To adjust window, find parallax class on style.css)
-
-     <div class="parallax"></div>
-
-
-
-     ***Add a Copyright Footer***
-
-     <div id="footer">
-       <p>Copyright Your Name, Year.</p>
-     </div>
-
-
-
-
-     ***Need something that's not here? Then you probably don't need it. But okay...go to w3 Schools***
-
-
-
-     Looking to publish this webtext in GitHub? Here are your next steps:
-
-     Sign in to GitHub. Create a new repository. Name it. Click “uploading an existing file,” then select/drag and drop all of your files... all of them, index.html. style.css, readme, and your image assets. Click "commit." Now go to your repository "settings." Scroll down to "Pages." Here you will change "source" from "none" to "main" branch. This will publish your webtext online. Copy your URL from this settings page...and now it's time to circulate your webtext! Peace and love only, Stephen Quigley, University of Pittsburgh, 2021.-->
